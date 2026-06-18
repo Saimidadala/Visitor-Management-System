@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="General" section_id="9915cc8cd3f241b29f413f255a5fa278" sys_domain="global" table="x_2066767_visito_0_facility_inventory" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>344ad91efae54153bd2325ad7a9a67c3</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_facility_inventory" sys_domain="global" view="Default view">9915cc8cd3f241b29f413f255a5fa278</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>item_name</element>
+      <position>1</position>
+      <sys_id>c7cb9d8c43694dd8a25e656f0eba6f17</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_facility_inventory" sys_domain="global" view="Default view">9915cc8cd3f241b29f413f255a5fa278</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>total_physical_stock</element>
+      <position>2</position>
+      <sys_id>f012c901794a4f5a88d2cc6df0f540f7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_facility_inventory" sys_domain="global" view="Default view">9915cc8cd3f241b29f413f255a5fa278</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>b46cdc207e1640afb0377ac8b7539251</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_facility_inventory" sys_domain="global" view="Default view">9915cc8cd3f241b29f413f255a5fa278</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>branch</element>
+      <position>4</position>
+      <sys_id>79f3212bb12f4b21964fefcdf3c77141</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_facility_inventory" sys_domain="global" view="Default view">9915cc8cd3f241b29f413f255a5fa278</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>5</position>
+      <sys_id>c54322b6f4354e328f5153734cd41a35</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_facility_inventory" sys_domain="global" view="Default view">9915cc8cd3f241b29f413f255a5fa278</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>General</caption>
+      <header>false</header>
+      <name>x_2066767_visito_0_facility_inventory</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>9915cc8cd3f241b29f413f255a5fa278</sys_id>
+      <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

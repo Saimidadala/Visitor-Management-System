@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="INSERT_OR_UPDATE">
+    <sys_id>a37a087f6c3f4be09c0aae7378e73d35</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_security_acl_a37a087f6c3f4be09c0aae7378e73d35</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>true</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description>Child rows inherit the security structure of their parent requests</description>
+    <local_or_existing>Local</local_or_existing>
+    <name>x_2066767_visito_0_requested_item</name>
+    <operation>read</operation>
+    <script><![CDATA[
+answer = current.parent_request.canRead();
+]]></script>
+    <security_attribute/>
+    <type>record</type>
+  </sys_security_acl>
+</record_update>

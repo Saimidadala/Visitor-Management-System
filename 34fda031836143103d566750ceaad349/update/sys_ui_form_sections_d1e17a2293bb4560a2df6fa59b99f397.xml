@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="d1e17a2293bb4560a2df6fa59b99f397" sys_domain="global" table="x_2066767_visito_0_active_visitor">
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>0</position>
+      <sys_id>507587f372fe48ab820fe714720736cd</sys_id>
+      <sys_ui_form display_value="x_2066767_visito_0_active_visitor" name="x_2066767_visito_0_active_visitor" sys_domain="global" view="Default view">d1e17a2293bb4560a2df6fa59b99f397</sys_ui_form>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_active_visitor" sys_domain="global" view="Default view">ca40a26370754c259b289c1175b6cfe3</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE">
+      <name>x_2066767_visito_0_active_visitor</name>
+      <roles/>
+      <sys_id>d1e17a2293bb4560a2df6fa59b99f397</sys_id>
+      <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+      <sys_user/>
+      <view>Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

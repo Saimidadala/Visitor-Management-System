@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>1f91ceecb4c0457ca406b25714506127</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_app_module_1f91ceecb4c0457ca406b25714506127</sys_update_name>
+    <active>true</active>
+    <application>a2906304b9d243ac8cbe3fc4f6ae11c2</application>
+    <hint>View active visitor security passes</hint>
+    <link_type>LIST</link_type>
+    <name>x_2066767_visito_0_active_visitor</name>
+    <order>400</order>
+    <title>Active Visitors</title>
+  </sys_app_module>
+</record_update>

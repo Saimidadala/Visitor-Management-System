@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE">
+    <sys_id>5c45f0551d884c35a857caf8953faebf</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_number_5c45f0551d884c35a857caf8953faebf</sys_update_name>
+    <category>x_2066767_visito_0_request</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1001</number>
+    <prefix>REQ</prefix>
+  </sys_number>
+</record_update>

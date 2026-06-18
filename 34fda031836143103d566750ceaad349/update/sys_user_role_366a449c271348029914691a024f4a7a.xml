@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+  <sys_user_role action="INSERT_OR_UPDATE">
+    <sys_id>366a449c271348029914691a024f4a7a</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_user_role_366a449c271348029914691a024f4a7a</sys_update_name>
+    <assignable_by/>
+    <can_delegate>true</can_delegate>
+    <description>Granted to branch and regional facility managers. Gives visibility into incoming regional request queues.</description>
+    <elevated_privilege>false</elevated_privilege>
+    <grantable>true</grantable>
+    <name>x_2066767_visito_0.approver</name>
+    <scoped_admin>false</scoped_admin>
+    <suffix>approver</suffix>
+  </sys_user_role>
+</record_update>

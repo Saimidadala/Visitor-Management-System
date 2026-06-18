@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="General" section_id="96a1c9031eab47e69036c8c7447dc131" sys_domain="global" table="x_2066767_visito_0_requested_item" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>e2ce1eb31f094c88b0da597445d8a754</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_requested_item" sys_domain="global" view="Default view">96a1c9031eab47e69036c8c7447dc131</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>parent_request</element>
+      <position>1</position>
+      <sys_id>7b3bd6ec74dc4941968ac6c9ccc2dc78</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_requested_item" sys_domain="global" view="Default view">96a1c9031eab47e69036c8c7447dc131</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>quantity_requested</element>
+      <position>2</position>
+      <sys_id>1e06e6f4de1c45e1b04fde93c39e7c2d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_requested_item" sys_domain="global" view="Default view">96a1c9031eab47e69036c8c7447dc131</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>3bcae1df124943e9a0a9563c532e69c2</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_requested_item" sys_domain="global" view="Default view">96a1c9031eab47e69036c8c7447dc131</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>facility_item</element>
+      <position>4</position>
+      <sys_id>0021ab1a0c284470a6700d05ae69742f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_requested_item" sys_domain="global" view="Default view">96a1c9031eab47e69036c8c7447dc131</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>item_status</element>
+      <position>5</position>
+      <sys_id>b80fbdaaaca24f25a8fbb93d2eded491</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_requested_item" sys_domain="global" view="Default view">96a1c9031eab47e69036c8c7447dc131</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>6</position>
+      <sys_id>a3e9d7bbd43f491aa434e9a560e9a1a1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_requested_item" sys_domain="global" view="Default view">96a1c9031eab47e69036c8c7447dc131</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>General</caption>
+      <header>false</header>
+      <name>x_2066767_visito_0_requested_item</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>96a1c9031eab47e69036c8c7447dc131</sys_id>
+      <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

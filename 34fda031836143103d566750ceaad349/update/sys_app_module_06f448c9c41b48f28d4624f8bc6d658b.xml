@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>06f448c9c41b48f28d4624f8bc6d658b</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_app_module_06f448c9c41b48f28d4624f8bc6d658b</sys_update_name>
+    <active>true</active>
+    <application>a2906304b9d243ac8cbe3fc4f6ae11c2</application>
+    <hint>View requested facility items</hint>
+    <link_type>LIST</link_type>
+    <name>x_2066767_visito_0_requested_item</name>
+    <order>500</order>
+    <title>Requested Facilities</title>
+  </sys_app_module>
+</record_update>

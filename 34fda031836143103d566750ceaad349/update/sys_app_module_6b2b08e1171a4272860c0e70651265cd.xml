@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>6b2b08e1171a4272860c0e70651265cd</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_app_module_6b2b08e1171a4272860c0e70651265cd</sys_update_name>
+    <active>true</active>
+    <application>a2906304b9d243ac8cbe3fc4f6ae11c2</application>
+    <hint>Manage facility inventory items per branch</hint>
+    <link_type>LIST</link_type>
+    <name>x_2066767_visito_0_facility_inventory</name>
+    <order>800</order>
+    <title>Facility Inventory</title>
+  </sys_app_module>
+</record_update>

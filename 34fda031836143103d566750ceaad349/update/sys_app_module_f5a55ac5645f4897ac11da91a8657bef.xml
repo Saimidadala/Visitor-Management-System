@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>f5a55ac5645f4897ac11da91a8657bef</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_app_module_f5a55ac5645f4897ac11da91a8657bef</sys_update_name>
+    <active>true</active>
+    <application>a2906304b9d243ac8cbe3fc4f6ae11c2</application>
+    <hint>Create a new visitor request</hint>
+    <link_type>NEW</link_type>
+    <name>x_2066767_visito_0_request</name>
+    <order>200</order>
+    <title>New Visitor Request</title>
+  </sys_app_module>
+</record_update>

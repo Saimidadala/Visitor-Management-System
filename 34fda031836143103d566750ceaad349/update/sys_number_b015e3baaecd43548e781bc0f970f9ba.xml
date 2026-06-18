@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE">
+    <sys_id>b015e3baaecd43548e781bc0f970f9ba</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_number_b015e3baaecd43548e781bc0f970f9ba</sys_update_name>
+    <category>x_2066767_visito_0_active_visitor</category>
+    <maximum_digits>5</maximum_digits>
+    <number>1</number>
+    <prefix>VMS-PASS</prefix>
+  </sys_number>
+</record_update>

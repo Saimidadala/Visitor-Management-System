@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+  <item_option_new_set action="INSERT_OR_UPDATE">
+    <sys_id>8f9cfb1fb61c4fbbb268ed35428d888e</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>item_option_new_set_8f9cfb1fb61c4fbbb268ed35428d888e</sys_update_name>
+    <create_roles/>
+    <description>Select facilities and resources needed for the visit</description>
+    <display_title>true</display_title>
+    <internal_name>requested_facilities_set</internal_name>
+    <layout>normal</layout>
+    <name/>
+    <order>100</order>
+    <read_roles/>
+    <set_attributes>max_rows=10,collapsible=true</set_attributes>
+    <title>Requested Facilities</title>
+    <type>one_to_many</type>
+    <version>1</version>
+    <write_roles/>
+  </item_option_new_set>
+</record_update>
