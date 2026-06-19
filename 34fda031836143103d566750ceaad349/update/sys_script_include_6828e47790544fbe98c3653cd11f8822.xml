@@ -64,8 +64,8 @@ VmsReferenceQualifier.prototype = {
             return 'branch=' + branch;
         }
 
-        // Fallback: show all facilities if branch cannot be determined
-        return 'sys_idISNOTEMPTY';
+        // No branch selected - show no facilities (user must select a branch first)
+        return 'sys_id=NULL';
     },
 
     type: 'VmsReferenceQualifier'
