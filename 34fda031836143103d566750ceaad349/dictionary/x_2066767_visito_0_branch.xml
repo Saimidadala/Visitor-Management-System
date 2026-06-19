@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b3211b4551ea4fe6b0773c4aec73a6a3" label="Branch" name="x_2066767_visito_0_branch" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Address" max_length="500" name="address" type="string"/>
+        <element label="Approval Group" max_length="32" name="approval_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="approval_group"/>
+        </index>
+    </element>
+</database>

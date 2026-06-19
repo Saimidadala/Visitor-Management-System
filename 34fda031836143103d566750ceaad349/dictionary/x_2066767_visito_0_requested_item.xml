@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bfe8f6fe851c4380918d49f76592c448" label="Requested Facility" name="x_2066767_visito_0_requested_item" type="collection">
+        <element label="Facility Item" mandatory="true" max_length="32" name="facility_item" reference="x_2066767_visito_0_facility_inventory" type="reference"/>
+        <element default="1" label="Quantity Requested" mandatory="true" max_length="40" name="quantity_requested" type="integer"/>
+        <element display="true" label="Parent Request" mandatory="true" max_length="32" name="parent_request" reference="x_2066767_visito_0_request" type="reference"/>
+        <element choice="1" default="pending" label="Item Status" max_length="40" name="item_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Out of Stock for Selected Dates" sequence="3" value="out_of_stock"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="facility_item"/>
+        </index>
+        <index name="index2">
+            <element name="parent_request"/>
+        </index>
+    </element>
+</database>

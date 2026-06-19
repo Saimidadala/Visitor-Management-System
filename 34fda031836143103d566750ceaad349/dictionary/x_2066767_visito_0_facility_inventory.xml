@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3bf40e52baca46b8a6ba87229982d444" label="Facility Inventory" name="x_2066767_visito_0_facility_inventory" type="collection">
+        <element label="Branch" mandatory="true" max_length="32" name="branch" reference="x_2066767_visito_0_branch" type="reference"/>
+        <element default="0" label="Total Physical Stock" max_length="40" name="total_physical_stock" type="integer"/>
+        <element display="true" label="Item Name" mandatory="true" max_length="200" name="item_name" type="string"/>
+        <index name="index">
+            <element name="branch"/>
+        </index>
+    </element>
+</database>

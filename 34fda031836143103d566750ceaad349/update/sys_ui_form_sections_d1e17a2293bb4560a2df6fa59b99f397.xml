@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_form_sections form_id="d1e17a2293bb4560a2df6fa59b99f397" sys_domain="global" table="x_2066767_visito_0_active_visitor">
-    <sys_ui_form_section action="INSERT_OR_UPDATE">
-      <position>0</position>
-      <sys_id>507587f372fe48ab820fe714720736cd</sys_id>
-      <sys_ui_form display_value="x_2066767_visito_0_active_visitor" name="x_2066767_visito_0_active_visitor" sys_domain="global" view="Default view">d1e17a2293bb4560a2df6fa59b99f397</sys_ui_form>
-      <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_active_visitor" sys_domain="global" view="Default view">ca40a26370754c259b289c1175b6cfe3</sys_ui_section>
-    </sys_ui_form_section>
-    <sys_ui_form action="INSERT_OR_UPDATE">
-      <name>x_2066767_visito_0_active_visitor</name>
-      <roles/>
-      <sys_id>d1e17a2293bb4560a2df6fa59b99f397</sys_id>
-      <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
-      <sys_user/>
-      <view>Default view</view>
-      <view_name/>
-    </sys_ui_form>
-  </sys_ui_form_sections>
+    <sys_ui_form_sections form_id="d1e17a2293bb4560a2df6fa59b99f397" sys_domain="global" table="x_2066767_visito_0_active_visitor" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-19 07:14:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>507587f372fe48ab820fe714720736cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2066767_visito_0_active_visitor" name="x_2066767_visito_0_active_visitor" sys_domain="global" view="Default view">d1e17a2293bb4560a2df6fa59b99f397</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_2066767_visito_0_active_visitor" sys_domain="global" view="Default view">ca40a26370754c259b289c1175b6cfe3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-19 07:14:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2066767_visito_0_active_visitor</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 16:49:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1e17a2293bb4560a2df6fa59b99f397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2066767_visito_0_active_visitor</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Visitor Management System" source="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visitor Management System">34fda031836143103d566750ceaad349</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d1e17a2293bb4560a2df6fa59b99f397</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 16:49:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
 </record_update>

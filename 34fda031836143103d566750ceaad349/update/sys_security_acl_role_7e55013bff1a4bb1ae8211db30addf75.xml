@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
-  <sys_security_acl_role action="INSERT_OR_UPDATE">
-    <sys_id>7e55013bff1a4bb1ae8211db30addf75</sys_id>
-    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
-    <sys_update_name>sys_security_acl_role_7e55013bff1a4bb1ae8211db30addf75</sys_update_name>
-    <sys_security_acl>07ef9a53b1ab45d28e959abd3e57ebb1</sys_security_acl>
-    <sys_user_role name="x_2066767_visito_0.approver">366a449c271348029914691a024f4a7a</sys_user_role>
-  </sys_security_acl_role>
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 16:49:29</sys_created_on>
+        <sys_id>7e55013bff1a4bb1ae8211db30addf75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2066767_visito_0_request.</sys_name>
+        <sys_package display_value="Visitor Management System" source="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Management System">34fda031836143103d566750ceaad349</sys_scope>
+        <sys_security_acl display_value="x_2066767_visito_0_request">07ef9a53b1ab45d28e959abd3e57ebb1</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7e55013bff1a4bb1ae8211db30addf75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 16:49:29</sys_updated_on>
+        <sys_user_role display_value="x_2066767_visito_0.approver" name="x_2066767_visito_0.approver">366a449c271348029914691a024f4a7a</sys_user_role>
+    </sys_security_acl_role>
 </record_update>

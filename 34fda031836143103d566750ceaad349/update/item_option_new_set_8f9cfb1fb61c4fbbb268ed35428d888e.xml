@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
-  <item_option_new_set action="INSERT_OR_UPDATE">
-    <sys_id>8f9cfb1fb61c4fbbb268ed35428d888e</sys_id>
-    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
-    <sys_update_name>item_option_new_set_8f9cfb1fb61c4fbbb268ed35428d888e</sys_update_name>
-    <create_roles/>
-    <description>Select facilities and resources needed for the visit</description>
-    <display_title>true</display_title>
-    <internal_name>requested_facilities_set</internal_name>
-    <layout>normal</layout>
-    <name/>
-    <order>100</order>
-    <read_roles/>
-    <set_attributes>max_rows=10,collapsible=true</set_attributes>
-    <title>Requested Facilities</title>
-    <type>one_to_many</type>
-    <version>2</version>
-    <write_roles/>
-  </item_option_new_set>
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description>Select facilities and resources needed for the visit</description>
+        <display_title>true</display_title>
+        <internal_name>requested_facilities_set</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes>max_rows=10,collapsible=true</set_attributes>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 16:49:16</sys_created_on>
+        <sys_id>8f9cfb1fb61c4fbbb268ed35428d888e</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Requested Facilities</sys_name>
+        <sys_package display_value="Visitor Management System" source="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Management System">34fda031836143103d566750ceaad349</sys_scope>
+        <sys_update_name>item_option_new_set_8f9cfb1fb61c4fbbb268ed35428d888e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-06-19 07:14:24</sys_updated_on>
+        <title>Requested Facilities</title>
+        <type>one_to_many</type>
+        <version>2</version>
+        <write_roles/>
+    </item_option_new_set>
 </record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7f9f363f739d43a09ac25130ad345f20" label="Active Visitor" name="x_2066767_visito_0_active_visitor" type="collection">
+        <element label="Confirmed Visitor" mandatory="true" max_length="200" name="confirmed_visitor" type="string"/>
+        <element label="Host Employee" mandatory="true" max_length="32" name="host_employee" reference="sys_user" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Pass ID" max_length="40" name="pass_id" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Active From" mandatory="true" max_length="40" name="active_from" type="glide_date"/>
+        <element label="Badge Issued" max_length="40" name="badge_issued" type="boolean"/>
+        <element label="Target Office Location" mandatory="true" max_length="32" name="target_office_location" reference="x_2066767_visito_0_branch" type="reference"/>
+        <element label="Authorized Assets Summary" max_length="4000" name="authorized_assets_summary" type="string"/>
+        <element label="Active Until" mandatory="true" max_length="40" name="active_until" type="glide_date"/>
+        <index name="index">
+            <element name="host_employee"/>
+        </index>
+        <index name="index2">
+            <element name="target_office_location"/>
+        </index>
+    </element>
+</database>
