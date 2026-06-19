@@ -19,8 +19,16 @@
     if (isLoading) return;
 
     // Clear the facility selection when branch changes
-    // This prevents stale facility selections from a previously selected branch
     g_form.clearValue('facility');
+
+    // Store the selected branch in the server session via GlideAjax.
+    // The MRVS reference qualifier reads from the session to filter facilities.
+    var ga = new GlideAjax('x_2066767_visito_0.VmsReferenceQualifier');
+    ga.addParam('sysparm_name', 'storeBranchInSession');
+    ga.addParam('sysparm_branch', newValue || '');
+    ga.getXMLAnswer(function(answer) {
+        // Branch stored in session - facility lookups will now filter correctly
+    });
 }
 ]]></script>
     <type>onChange</type>

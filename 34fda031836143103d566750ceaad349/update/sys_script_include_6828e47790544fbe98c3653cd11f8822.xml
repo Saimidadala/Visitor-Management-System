@@ -7,46 +7,59 @@
     <active>true</active>
     <api_name>x_2066767_visito_0.VmsReferenceQualifier</api_name>
     <caller_access/>
-    <client_callable>false</client_callable>
-    <description>Provides dynamic reference qualifier logic for MRVS facility filtering. Handles cart item, RITM, and fallback contexts.</description>
+    <client_callable>true</client_callable>
+    <description>Provides dynamic reference qualifier logic for MRVS facility filtering. Uses session storage to pass branch value from client to server across MRVS popup context.</description>
     <mobile_callable>false</mobile_callable>
     <name>VmsReferenceQualifier</name>
     <sandbox_callable>false</sandbox_callable>
     <script><![CDATA[var VmsReferenceQualifier = Class.create();
-VmsReferenceQualifier.prototype = {
-    initialize: function() {},
+VmsReferenceQualifier.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    /**
+     * Called from Catalog Client Script (onChange on branch) via GlideAjax.
+     * Stores the selected branch sys_id in the user's session so the
+     * reference qualifier can access it in the MRVS popup context.
+     */
+    storeBranchInSession: function() {
+        var branch = this.getParameter('sysparm_branch');
+        if (branch) {
+            gs.getSession().putClientData('vms_selected_branch', branch);
+        } else {
+            gs.getSession().putClientData('vms_selected_branch', '');
+        }
+        return 'ok';
+    },
 
     /**
      * Returns an encoded query to filter facility_inventory records by branch.
-     * Handles multiple contexts:
-     * 1. RITM form (after submission) - uses current.variables
-     * 2. Cart item (during ordering) - looks up sc_cart_item by sysparm_id
-     * 3. Fallback - shows all records if branch cannot be determined
+     * Reads the branch value from the user's session (stored by client script).
+     * Falls back to current.variables and RP parameters for post-submission contexts.
      */
     getFacilityFilter: function() {
         var branch = '';
 
-        // Approach 1: Try current.variables (works on RITM form after submission)
+        // Primary: Read from session (stored by catalog client script via GlideAjax)
         try {
-            if (typeof current !== 'undefined' && current && current.variables && current.variables.branch) {
-                branch = current.variables.branch.toString();
-            }
-        } catch(e) {
-            // current.variables may not be available in MRVS popup context
+            branch = gs.getSession().getClientData('vms_selected_branch');
+        } catch(e) {}
+
+        // Fallback 1: Try current.variables (works on RITM form after submission)
+        if (!branch) {
+            try {
+                if (typeof current !== 'undefined' && current && current.variables && current.variables.branch) {
+                    branch = current.variables.branch.toString();
+                }
+            } catch(e) {}
         }
 
-        // Approach 2: Look up from cart item via RP parameter (during ordering)
+        // Fallback 2: Look up from cart/RITM via RP parameter
         if (!branch) {
             try {
                 var cartId = RP.getParameterValue('sysparm_id');
                 if (cartId) {
-                    // Try sc_cart_item first (ordering context)
                     var cartItem = new GlideRecord('sc_cart_item');
                     if (cartItem.get(cartId) && cartItem.variables.branch) {
                         branch = cartItem.variables.branch.toString();
                     }
-
-                    // Try sc_req_item (viewing/editing submitted request)
                     if (!branch) {
                         var ritm = new GlideRecord('sc_req_item');
                         if (ritm.get(cartId) && ritm.variables.branch) {
@@ -54,22 +67,20 @@ VmsReferenceQualifier.prototype = {
                         }
                     }
                 }
-            } catch(e) {
-                // RP may not be available in all contexts
-            }
+            } catch(e) {}
         }
 
-        // Return the encoded query filter
+        // Return the filter
         if (branch) {
             return 'branch=' + branch;
         }
 
-        // No branch selected - show no facilities (user must select a branch first)
+        // No branch available - show nothing (user must select branch first)
         return 'sys_id=NULL';
     },
 
     type: 'VmsReferenceQualifier'
-};
+});
 ]]></script>
   </sys_script_include>
 </record_update>
