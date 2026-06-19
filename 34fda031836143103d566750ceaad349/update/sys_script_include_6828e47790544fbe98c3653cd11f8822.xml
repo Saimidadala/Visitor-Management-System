@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+  <sys_script_include action="INSERT_OR_UPDATE">
+    <sys_id>6828e47790544fbe98c3653cd11f8822</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_script_include_6828e47790544fbe98c3653cd11f8822</sys_update_name>
+    <access>package_private</access>
+    <active>true</active>
+    <api_name>x_2066767_visito_0.VmsReferenceQualifier</api_name>
+    <caller_access/>
+    <client_callable>false</client_callable>
+    <description>Provides dynamic reference qualifier logic for MRVS facility filtering. Handles cart item, RITM, and fallback contexts.</description>
+    <mobile_callable>false</mobile_callable>
+    <name>VmsReferenceQualifier</name>
+    <sandbox_callable>false</sandbox_callable>
+    <script><![CDATA[var VmsReferenceQualifier = Class.create();
+VmsReferenceQualifier.prototype = {
+    initialize: function() {},
+
+    /**
+     * Returns an encoded query to filter facility_inventory records by branch.
+     * Handles multiple contexts:
+     * 1. RITM form (after submission) - uses current.variables
+     * 2. Cart item (during ordering) - looks up sc_cart_item by sysparm_id
+     * 3. Fallback - shows all records if branch cannot be determined
+     */
+    getFacilityFilter: function() {
+        var branch = '';
+
+        // Approach 1: Try current.variables (works on RITM form after submission)
+        try {
+            if (typeof current !== 'undefined' && current && current.variables && current.variables.branch) {
+                branch = current.variables.branch.toString();
+            }
+        } catch(e) {
+            // current.variables may not be available in MRVS popup context
+        }
+
+        // Approach 2: Look up from cart item via RP parameter (during ordering)
+        if (!branch) {
+            try {
+                var cartId = RP.getParameterValue('sysparm_id');
+                if (cartId) {
+                    // Try sc_cart_item first (ordering context)
+                    var cartItem = new GlideRecord('sc_cart_item');
+                    if (cartItem.get(cartId) && cartItem.variables.branch) {
+                        branch = cartItem.variables.branch.toString();
+                    }
+
+                    // Try sc_req_item (viewing/editing submitted request)
+                    if (!branch) {
+                        var ritm = new GlideRecord('sc_req_item');
+                        if (ritm.get(cartId) && ritm.variables.branch) {
+                            branch = ritm.variables.branch.toString();
+                        }
+                    }
+                }
+            } catch(e) {
+                // RP may not be available in all contexts
+            }
+        }
+
+        // Return the encoded query filter
+        if (branch) {
+            return 'branch=' + branch;
+        }
+
+        // Fallback: show all facilities if branch cannot be determined
+        return 'sys_idISNOTEMPTY';
+    },
+
+    type: 'VmsReferenceQualifier'
+};
+]]></script>
+  </sys_script_include>
+</record_update>

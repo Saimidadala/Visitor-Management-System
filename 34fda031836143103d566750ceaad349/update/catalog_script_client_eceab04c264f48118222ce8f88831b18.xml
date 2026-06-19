@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_script_client">
+  <catalog_script_client action="INSERT_OR_UPDATE">
+    <sys_id>eceab04c264f48118222ce8f88831b18</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>catalog_script_client_eceab04c264f48118222ce8f88831b18</sys_update_name>
+    <active>true</active>
+    <applies_catalog>true</applies_catalog>
+    <applies_req_item>true</applies_req_item>
+    <applies_sc_task>false</applies_sc_task>
+    <applies_target_record>false</applies_target_record>
+    <applies_to>item</applies_to>
+    <cat_item>bc1b238fac8547459894db8d3fd01804</cat_item>
+    <cat_variable>IO:2e0f94dfae99484abf8b89d008c14a62</cat_variable>
+    <global>true</global>
+    <isolate_script>true</isolate_script>
+    <name>Branch Change - Clear Facility Selection</name>
+    <published_ref/>
+    <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) return;
+
+    // Clear the facility selection when branch changes
+    // This prevents stale facility selections from a previously selected branch
+    g_form.clearValue('facility');
+}
+]]></script>
+    <type>onChange</type>
+    <ui_type>10</ui_type>
+    <va_supported>false</va_supported>
+    <variable_set/>
+  </catalog_script_client>
+</record_update>

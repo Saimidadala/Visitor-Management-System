@@ -58,7 +58,7 @@
     <read_script/>
     <rec_lookup_price/>
     <reference>x_2066767_visito_0_facility_inventory</reference>
-    <reference_qual>javascript:'branch=' + current.variables.branch;</reference_qual>
+    <reference_qual>javascript:new x_2066767_visito_0.VmsReferenceQualifier().getFacilityFilter()</reference_qual>
     <reference_qual_condition/>
     <rich_text/>
     <roles_to_use_also_request_for/>
