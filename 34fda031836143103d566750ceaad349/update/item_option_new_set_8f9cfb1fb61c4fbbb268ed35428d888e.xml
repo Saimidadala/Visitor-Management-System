@@ -14,7 +14,7 @@
     <set_attributes>max_rows=10,collapsible=true</set_attributes>
     <title>Requested Facilities</title>
     <type>one_to_many</type>
-    <version>1</version>
+    <version>2</version>
     <write_roles/>
   </item_option_new_set>
 </record_update>

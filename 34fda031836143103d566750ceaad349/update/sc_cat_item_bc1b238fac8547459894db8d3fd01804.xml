@@ -14,7 +14,7 @@
     <delivery_plan/>
     <delivery_plan_script/>
     <delivery_time>1970-01-01 00:00:00</delivery_time>
-    <description><![CDATA[Use this form to request visitor access to another branch. Select your destination, travel dates, and the facilities/resources you need during your visit. Your request will be routed to the branch management team for approval.]]></description>
+    <description><![CDATA[<p>Use this form to request visitor access to another branch. Select your destination, travel dates, and the facilities/resources you need during your visit. Your request will be routed to the branch management team for approval.</p>]]></description>
     <display_price_property>non_zero</display_price_property>
     <entitlement_script/>
     <flow_designer_flow>a2ba62ccd30347488b9dcd327633df4e</flow_designer_flow>
@@ -61,7 +61,7 @@
     <type>item</type>
     <use_sc_layout>true</use_sc_layout>
     <vendor/>
-    <version>1</version>
+    <version>3</version>
     <view/>
     <visible_bundle>true</visible_bundle>
     <visible_guide>true</visible_guide>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_catalog_trigger">
+  <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+    <sys_id>6f5830b583a143103d566750ceaad3f6</sys_id>
+    <sys_scope display_value="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_scope>
+    <sys_update_name>sys_flow_catalog_trigger_6f5830b583a143103d566750ceaad3f6</sys_update_name>
+    <active>true</active>
+    <run_flow_in>background</run_flow_in>
+    <sys_domain>global</sys_domain>
+    <sys_domain_path>/</sys_domain_path>
+  </sys_flow_catalog_trigger>
+</record_update>
