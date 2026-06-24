@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>1cd3b29b402d4f1040afeba14bd7761d</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app>
+        <path>vms</path>
+        <root_macroponent display_value="Portal App Shell (Deprecated)">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 18:12:29</sys_created_on>
+        <sys_id>18d3b29b092d4f10d16acbb8ad0ae61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VMS Traveler Portal</sys_name>
+        <sys_package display_value="Visitor Management System" source="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Management System">34fda031836143103d566750ceaad349</sys_scope>
+        <sys_update_name>sys_ux_page_registry_18d3b29b092d4f10d16acbb8ad0ae61d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 18:12:29</sys_updated_on>
+        <title>VMS Traveler Portal</title>
+    </sys_ux_page_registry>
+</record_update>

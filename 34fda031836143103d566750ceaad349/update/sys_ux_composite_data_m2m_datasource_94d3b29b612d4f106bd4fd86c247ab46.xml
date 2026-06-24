@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">a0d3b29b452d4f102e12c77089a15149</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">90d3b29bc82d4f106a2c6660ac33f447</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 18:12:28</sys_created_on>
+        <sys_id>94d3b29b612d4f106bd4fd86c247ab46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Visitor Management System" source="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Management System">34fda031836143103d566750ceaad349</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_94d3b29b612d4f106bd4fd86c247ab46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 18:12:28</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

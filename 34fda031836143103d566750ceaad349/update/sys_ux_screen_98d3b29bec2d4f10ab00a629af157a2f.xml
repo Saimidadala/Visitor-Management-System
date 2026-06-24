@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="VMS Traveler Portal App Config">1cd3b29b402d4f1040afeba14bd7761d</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Attachment">9cd3b29b7b2d4f10bd0e0ce90480b736</macroponent>
+        <macroponent_config>{
+  "sysId" : {
+    "type" : "CONTEXT_BINDING",
+    "binding" : {
+      "address" : [ "sysId" ],
+      "category" : "props"
+    }
+  },
+  "table" : {
+    "type" : "CONTEXT_BINDING",
+    "binding" : {
+      "address" : [ "table" ],
+      "category" : "props"
+    }
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "none"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Attachment Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(task)">28d3b29b132d4f10d0327f9e996e4c7e</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Attachments">28d3b29b2c2d4f109a4b6fa60af8b67d</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 18:12:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98d3b29bec2d4f10ab00a629af157a2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Visitor Management System" source="x_2066767_visito_0">34fda031836143103d566750ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Management System">34fda031836143103d566750ceaad349</sys_scope>
+        <sys_update_name>sys_ux_screen_98d3b29bec2d4f10ab00a629af157a2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 18:12:29</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=98d3b29bec2d4f10ab00a629af157a2f"/>
+</record_update>
